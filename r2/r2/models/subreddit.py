@@ -718,7 +718,7 @@ class _DefaultSR(FakeSubreddit):
     #notice the space before reddit.com
     name = ' reddit.com'
     path = '/'
-    header = 'http://' + g.static_base_url + '/static/rackspace/rackit.header.png'
+    header = 'http://' + g.static_base_url + '.header.png'
 
     def get_links_sr_ids(self, sr_ids, sort, time):
         from r2.lib.db import queries
